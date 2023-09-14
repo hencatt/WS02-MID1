@@ -1,0 +1,165 @@
+html, body{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    background-image: url(img/bgmayb2.jpg);
+    background-size: cover;
+    background-color: #ecdcce;
+}
+
+header{
+    background-color: #61769b;
+    background-image: url("img/mona namecard.jpg");
+    background-size: cover;
+    padding: 40px;
+    text-align: center;
+}
+
+h1{
+    font-size: 90px;
+    color: #e8f0ff;
+    font-family: 'Varela Round', sans-serif;
+}
+
+ol {
+    list-style: disc;
+}
+
+header img{
+    border-radius: 174px;
+    width: 300px;
+    border: 24px solid #ABBCDA;
+    background-color: #445370;
+    transition: all 0.7s 0s ease;
+    transition-timing-function: cubic-bezier(.36,.23,.09,1)
+}
+
+header img:hover{
+    transform: rotate(-5deg);
+    cursor: pointer;
+    background-color: #7991c2;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #384355;
+}
+
+abbr{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+abbr:hover{
+    font-weight: bold;
+
+}
+
+img.big-image{
+    max-width: 100%;
+    border: 3px solid #495c7a;
+    object-fit: cover;
+    object-position: 0% 20%;
+    transition: all 0.6s ease;
+    transition-timing-function: cubic-bezier(.61,.04,0,.6);
+}
+
+.wahaha{
+    transition: all 0.6s ease;
+}
+
+.wahaha:hover{
+    transform: scale(1.02);
+}
+
+.haha{
+    max-width: 900px;
+    position: absolute;
+    z-index: 1;
+}
+
+.hehe{
+    position: relative;
+}
+
+.haha img:hover{
+    opacity: 0%;
+    cursor: pointer;
+    filter: blur(5px) saturate(0%) drop-shadow(20px 20px 10px #495c7a);
+    mix-blend-mode: multiply;
+}
+
+/* no
+.idk{
+    position: absolute;
+    float: right;
+    left: 70%;
+    scale: 0.8;
+    transition: all 0.6s ease;
+    transition-timing-function: cubic-bezier(0,.37,.09,1);
+}
+
+
+.idk:hover{
+    transform: translateX(150px) translateY(-200px);
+}
+*/
+
+p.caption{
+    font-size: 16px;
+    color: rgb(95, 95, 95);
+    font-style: italic;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: #ac294a;
+    text-decoration: none;
+}
+
+.smallimage{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 7px solid #ABBCDA;
+    background-color: #c0ad7b;
+    filter: saturate(30%) sepia(50%);
+    transition: all 0.3s ease;
+    transition-timing-function: cubic-bezier(.61,.04,0,.6);
+}
+
+.smallimage:hover{
+    transform: translateY(-3px) rotate(3deg);
+    filter: saturate(90%) sepia(10%);
+    cursor: pointer;
+}
+
+.amigos{
+    text-align: center;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 40px 20px;
+    color: #e8f0ff;
+    background-color: #61769b;
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+footer ul li a{
+    color: #cbc5ff
+}
